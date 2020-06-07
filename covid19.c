@@ -99,19 +99,6 @@ int max, count = 1, aux =0;
 	for (int i = 0; i < d; i++) {
 		if(i+1==d){
 			//nao coloquei nada nesta condicao porque caso contrario o ultimo valor do vetor
-			//ira ser comparado com o primeiro da proxima linha 'ÉOQ?'
-			/*Ex doq eu quero dizer professor:
-			v[0][x] = 0 1 2 3 4 5
-			v[1][x] = 6 7 8 1 2 3
-			Qual a maior ordem crescente do vetor na v[0]?
-			Seria 6 certo? Mas ele compara com o proximo parametro da matriz, ou seja, o 6 em v[1][0]
-			portanto, o valor de saida seria 7 e nao 6 .-.
-			Lembrei disto porque quando usei o valor de exemplo que o sr. colocou no PDF, 
-			o Brasil SEMPRE saia com uma ordem crescente de 4 ao contrario dos EUA e Argentina que saiam com o valor correto,
-			deve ter uma forma melhor de fazer essa verificacao, mas o melhor jeito q consegui pensar por agora foi este
-			A mais uma coisa, eu poderia fazer a parte do else toda em (x > y) ? ......
-			mas eu acabei me confundindo todo, fiz em vários if's e deixei apenas a última verificacao antes do return
-			*/
 		}else{
 			//caso o proximo valor seja maior que o valor atual, acreste 1 ao contador
 			//caso contrario defina count = 1

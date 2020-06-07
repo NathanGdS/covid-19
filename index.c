@@ -2,15 +2,6 @@
 #include "covid19.h"
 #define ESPACO() printf("\n")
 
-/* Inf gerais:
-Nome dos Integrantes:
-    Nathan Garcia dos Santos 
-    Nathan Felipe Guerlando
-    Henrique Reche
-
-ADS 2ºCiclo 2020
-*/
-
 int main()
 {
     int nP, qD, n;
